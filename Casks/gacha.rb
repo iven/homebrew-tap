@@ -21,8 +21,9 @@ cask "gacha" do
 
   caveats <<~EOS
     Gacha is distributed without Apple Developer ID signing or notarization.
-    On first launch, macOS may ask you to approve it in System Settings >
-    Privacy & Security.
+    On first launch, macOS may say it cannot verify Gacha and offer to move it
+    to the Trash. Choose Done, then open System Settings > Privacy & Security
+    and click Open Anyway for Gacha.
 
     Launch and approve Gacha once before using the bundled CLI.
   EOS
