@@ -1,6 +1,6 @@
 cask "gacha" do
-  version "0.2.0"
-  sha256 "8eb156af8b1a35b3764b3493f414dbd6997f2d441f6e391d424d9f01a770d92a"
+  version "0.2.1"
+  sha256 "3fe76f9deb161abbc2c96dbfcdaa9cb65683abfb1c3a302649f2123e49f775b2"
 
   url "https://github.com/iven/gacha/releases/download/v#{version}/Gacha-#{version}.dmg"
   name "Gacha"
